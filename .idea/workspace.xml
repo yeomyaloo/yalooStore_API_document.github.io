@@ -5,58 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0391cd61-f136-41f9-abdb-3c515a0a09f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/asciidoc/member-api-docs.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asciidoc/product-api-docs.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/curl-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/http-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/http-response.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/httpie-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/path-parameters.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/request-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/response-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/response-fields.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/curl-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/http-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/http-response.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/httpie-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/path-parameters.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/query-parameters.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/request-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/response-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/response-fields.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/curl-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/http-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/http-response.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/httpie-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/path-parameters.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/request-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/response-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/response-fields.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/curl-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/http-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/http-response.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/httpie-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/path-parameters.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/request-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/response-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/response-fields.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/curl-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/http-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/http-response.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/httpie-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/path-parameters.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/request-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/response-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/response-fields.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/curl-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/http-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/http-response.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/httpie-request.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/query-parameters.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/request-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/response-body.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/response-fields-data.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asciidoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/asciidoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/yeomhwiju/Documents/GitHub/APIDocument/target/generated-snippets/snippets",
+    "last_opened_file_path": "/Users/yeomhwiju/Documents/GitHub/yalooStore_API_document.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,6 +56,7 @@
       <recent name="$PROJECT_DIR$/snippets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/asciidoc" />
       <recent name="$PROJECT_DIR$/target/generated-snippets" />
       <recent name="$PROJECT_DIR$/target" />
@@ -122,6 +72,7 @@
       <updated>1687933751608</updated>
       <workItem from="1687933752961" duration="958000" />
       <workItem from="1687942778083" duration="2650000" />
+      <workItem from="1687946384396" duration="675000" />
     </task>
     <servers />
   </component>
