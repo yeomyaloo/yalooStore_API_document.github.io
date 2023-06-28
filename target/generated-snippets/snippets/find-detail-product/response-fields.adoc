@@ -1,0 +1,68 @@
+|===
+|Path|Type|Description
+
+|`+success+`
+|`+Boolean+`
+|동작 성공 여부
+
+|`+status+`
+|`+Number+`
+|상태
+
+|`+data.productId+`
+|`+Number+`
+|상품 아이디
+
+|`+data.productName+`
+|`+String+`
+|상품명
+
+|`+data.thumbnail+`
+|`+String+`
+|상품 이미지
+
+|`+data.rawPrice+`
+|`+Number+`
+|상품 가격
+
+|`+data.discountPrice+`
+|`+Number+`
+|상품 할인 가격
+
+|`+data.discountPercent+`
+|`+Number+`
+|상품 할인율
+
+|`+data.isSold+`
+|`+Boolean+`
+|상품 품절 여부
+
+|`+data.quantity+`
+|`+Number+`
+|상품 개수
+
+|`+data.description+`
+|`+String+`
+|상품 상세 정보
+
+|`+data.isbn+`
+|`+String+`
+|도서 ISBN
+
+|`+data.pageCnt+`
+|`+Number+`
+|전체 페이지
+
+|`+data.publisherName+`
+|`+String+`
+|출판사
+
+|`+data.authorName+`
+|`+String+`
+|저자
+
+|`+errorMessages+`
+|`+Array+`
+|에러 메세지
+
+|===

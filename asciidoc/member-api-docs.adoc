@@ -1,0 +1,153 @@
+= Members(link:index.html[뒤로가기])
+notification-api-docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+:sectnums:
+
+== 회원가입 시 해당 필드 중복 확인 API
+=== 회원가입 시 회원 휴대전화번호 중복여부 확인 - 가입되지 않은 휴대전화 번호인 경우
+
+==== curl
+include::../target/generated-snippets/snippets/exist-member-by-phone-not-exist/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-phone-not-exist/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-phone-not-exist/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-phone-not-exist/response-fields.adoc[]
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-phone-not-exist/response-body.adoc[]
+
+=== 회원가입 시 회원 휴대전화번호 중복여부 확인 - 이미 가입된 휴대전화 번호인 경우
+
+==== curl
+include::../target/generated-snippets/snippets/exist-member-by-phone-exist/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-phone-exist/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-phone-exist/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-phone-exist/response-fields.adoc[]
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-phone-exist/response-body.adoc[]
+
+
+=== 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 닉네임인 경우
+
+==== curl
+include::../target/generated-snippets/snippets/exist-member-by-nickname-fail/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-nickname-fail/http-request.adoc[]
+
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-nickname-fail/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-nickname-fail/response-fields.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-nickname-fail/response-body.adoc[]
+
+=== 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 닉네임인 경우
+
+==== curl
+include::../target/generated-snippets/snippets/exist-member-by-nickname-success/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-nickname-success/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-nickname-success/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-nickname-success/response-fields.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-nickname-success/response-body.adoc[]
+
+
+=== 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 이메일일 경우
+
+==== curl
+include::../target/generated-snippets/snippets/exist-member-by-email-exist/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-email-exist/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-email-exist/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-email-exist/response-fields.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-email-exist/response-body.adoc[]
+
+=== 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 이메일일 경우
+==== curl
+include::../target/generated-snippets/snippets/exist-member-by-email-not-exist/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-email-not-exist/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-email-not-exist/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-email-not-exist/response-fields.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-email-not-exist/response-body.adoc[]
+
+
+== 배치 서버 회원 관련 API
+=== n일 이후의 생일인 회원 검색(회원 PK 아이디 값) - 배치 서버에서 사용
+
+==== curl
+include::../target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/http-request.adoc[]
+
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/response-fields-data.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/response-body.adoc[]

@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /api/service/products/1?_csrf=NgnffMVZ5rI0CrKAxxyAT3WIxjXKvXb9DLV6ZC8zaEVR_YoKBmzuGqBs14QZMorh8DG0KkG561SriEbQaIIbUhsCUCM0mbI4 HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost
+
+----

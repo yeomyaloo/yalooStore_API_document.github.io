@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0391cd61-f136-41f9-abdb-3c515a0a09f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/asciidoc/member-api-docs.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asciidoc/product-api-docs.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/curl-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/http-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/http-response.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/httpie-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/path-parameters.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/request-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/response-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-fail/response-fields.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/curl-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/http-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/http-response.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/httpie-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/path-parameters.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/query-parameters.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/request-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/response-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-nickname-success/response-fields.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/curl-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/http-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/http-response.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/httpie-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/path-parameters.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/request-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/response-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-exist/response-fields.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/curl-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/http-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/http-response.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/httpie-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/path-parameters.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/request-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/response-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/exist-member-by-phone-not-exist/response-fields.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/curl-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/http-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/http-response.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/httpie-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/path-parameters.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/request-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/response-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-detail-product/response-fields.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/curl-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/http-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/http-response.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/httpie-request.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/query-parameters.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/request-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/response-body.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-snippets/snippets/find-member-id-list-by-member-birthday-success/response-fields-data.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asciidoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/asciidoc/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Rp4aRp7JKAmadJ8ueWpxEiRGOt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/yeomhwiju/Documents/GitHub/APIDocument/target/generated-snippets/snippets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/generated-snippets/snippets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/snippets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asciidoc" />
+      <recent name="$PROJECT_DIR$/target/generated-snippets" />
+      <recent name="$PROJECT_DIR$/target" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0391cd61-f136-41f9-abdb-3c515a0a09f7" name="Changes" comment="" />
+      <created>1687933751608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687933751608</updated>
+      <workItem from="1687933752961" duration="958000" />
+      <workItem from="1687942778083" duration="2650000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

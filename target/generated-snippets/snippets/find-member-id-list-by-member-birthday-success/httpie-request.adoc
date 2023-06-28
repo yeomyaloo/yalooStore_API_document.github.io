@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http GET 'https://localhost/api/service/members/birthday?laterDays=7' \
+    'Content-Type:application/json;charset=UTF-8'
+----

@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /api/service/members/birthday?laterDays=7 HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost
+
+----

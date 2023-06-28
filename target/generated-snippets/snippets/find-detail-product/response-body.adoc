@@ -1,0 +1,23 @@
+[source,json,options="nowrap"]
+----
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "productId" : 1,
+    "productName" : "test",
+    "thumbnail" : "test",
+    "rawPrice" : 1000,
+    "discountPrice" : 900,
+    "discountPercent" : 10,
+    "isSold" : false,
+    "quantity" : 10,
+    "description" : "test test",
+    "isbn" : "1234",
+    "pageCnt" : 300,
+    "publisherName" : "test publisher",
+    "authorName" : "test author"
+  },
+  "errorMessages" : null
+}
+----

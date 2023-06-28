@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`+success+`
+|`+Boolean+`
+|동작 성공 여부
+
+|`+status+`
+|`+Number+`
+|HTTP 상태 코드
+
+|`+data.result+`
+|`+Boolean+`
+|회원 닉네임 중복 여부
+
+|`+errorMessages+`
+|`+Array+`
+|에러 메시지
+
+|===

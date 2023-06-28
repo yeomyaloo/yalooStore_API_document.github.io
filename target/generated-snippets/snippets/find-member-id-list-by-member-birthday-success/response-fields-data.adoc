@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`+memberId+`
+|`+Number+`
+|생일인 회원의 기본키 값
+
+|===

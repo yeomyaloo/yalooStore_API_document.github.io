@@ -1,0 +1,66 @@
+= Product(link:index.html[뒤로가기])
+notification-api-docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+:sectnums:
+
+
+=== 전체 상품 페이징 조회(모든 사용자용)
+==== curl
+
+==== request
+===== Example
+
+==== response
+===== Example
+
+
+==== Body
+
+===== Example
+
+
+=== 상품 상세 조회 - 모든 사용자용
+==== curl
+include::../target/generated-snippets/snippets/find-detail-product/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/find-detail-product/http-request.adoc[]
+
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/find-detail-product/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/find-detail-product/response-fields.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/find-detail-product/response-body.adoc[]
+
+=== 상품명으로 특정 상품 검색 - 모든 사용자용
+
+==== curl
+include::../target/generated-snippets/snippets/find-detail-product/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/find-detail-product/http-request.adoc[]
+
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/find-detail-product/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/find-detail-product/response-fields.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/find-detail-product/response-body.adoc[]

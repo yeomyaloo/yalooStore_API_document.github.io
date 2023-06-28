@@ -1,0 +1,8 @@
+.+/api/service/products/{productId}+
+|===
+|Parameter|Description
+
+|`+productId+`
+|조회할 상품의 아이디
+
+|===

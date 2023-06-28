@@ -1,0 +1,8 @@
+.+/api/service/members/checkEmail/{email}+
+|===
+|Parameter|Description
+
+|`+email+`
+|회원 가입 시 중복 체크 대상 - email
+
+|===

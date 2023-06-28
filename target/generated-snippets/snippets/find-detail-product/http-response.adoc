@@ -1,0 +1,36 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 428
+
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "productId" : 1,
+    "productName" : "test",
+    "thumbnail" : "test",
+    "rawPrice" : 1000,
+    "discountPrice" : 900,
+    "discountPercent" : 10,
+    "isSold" : false,
+    "quantity" : 10,
+    "description" : "test test",
+    "isbn" : "1234",
+    "pageCnt" : 300,
+    "publisherName" : "test publisher",
+    "authorName" : "test author"
+  },
+  "errorMessages" : null
+}
+----

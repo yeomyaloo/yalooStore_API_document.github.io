@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'https://localhost/api/service/members/checkNickname/test' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'
+----

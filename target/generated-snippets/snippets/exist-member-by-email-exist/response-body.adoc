@@ -1,0 +1,11 @@
+[source,json,options="nowrap"]
+----
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : true
+  },
+  "errorMessages" : null
+}
+----
