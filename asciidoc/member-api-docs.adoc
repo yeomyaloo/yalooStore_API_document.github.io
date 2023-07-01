@@ -29,6 +29,46 @@ include::../target/generated-snippets/snippets/sign-up-member-success/response-b
 
 
 == 회원가입 시 해당 필드 중복 확인 API
+=== 회원가입 시 회원 로그인 아이디 중복 여부 확인 - 가입되지 않은 아이디인 경우
+
+==== curl
+include::../target/generated-snippets/snippets/exist-member-by-loginId-exist/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-loginId-exist/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-loginId-exist/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-loginId-exist/response-fields.adoc[]
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-loginId-exist/response-body.adoc[]
+
+=== 회원가입 시 회원 로그인 아이디 중복 여부 확인 - 이미 가입된 아이디인 경우
+
+==== curl
+
+include::../target/generated-snippets/snippets/exist-member-by-loginId-not-exist/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-loginId-not-exist/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-loginId-not-exist/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/exist-member-by-loginId-not-exist/response-fields.adoc[]
+
+===== Example
+include::../target/generated-snippets/snippets/exist-member-by-loginId-not-exist/response-body.adoc[]
+
+
 === 회원가입 시 회원 휴대전화번호 중복여부 확인 - 가입되지 않은 휴대전화 번호인 경우
 
 ==== curl
@@ -51,6 +91,7 @@ include::../target/generated-snippets/snippets/exist-member-by-phone-not-exist/r
 === 회원가입 시 회원 휴대전화번호 중복여부 확인 - 이미 가입된 휴대전화 번호인 경우
 
 ==== curl
+
 include::../target/generated-snippets/snippets/exist-member-by-phone-exist/curl-request.adoc[]
 
 ==== request
