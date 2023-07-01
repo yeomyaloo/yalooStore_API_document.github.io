@@ -1,0 +1,13 @@
+[source,json,options="nowrap"]
+----
+{
+  "id" : "yaloo",
+  "nickname" : "yaloo",
+  "name" : "yaloo",
+  "gender" : "FEMALE",
+  "birthday" : "19960320",
+  "phoneNumber" : "01000009999",
+  "emailAddress" : "test@test.com",
+  "password" : "asdad122ed@"
+}
+----

@@ -1,0 +1,26 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 224
+
+{
+  "success" : true,
+  "status" : 201,
+  "data" : {
+    "memberId" : 1,
+    "name" : "yaloo",
+    "nickname" : "yaloo",
+    "id" : "yaloo",
+    "grade" : "화이트",
+    "role" : "ROLE_USER"
+  },
+  "errorMessages" : null
+}
+----

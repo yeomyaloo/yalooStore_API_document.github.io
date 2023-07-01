@@ -1,0 +1,16 @@
+[source,json,options="nowrap"]
+----
+{
+  "success" : true,
+  "status" : 201,
+  "data" : {
+    "memberId" : 1,
+    "name" : "yaloo",
+    "nickname" : "yaloo",
+    "id" : "yaloo",
+    "grade" : "화이트",
+    "role" : "ROLE_USER"
+  },
+  "errorMessages" : null
+}
+----

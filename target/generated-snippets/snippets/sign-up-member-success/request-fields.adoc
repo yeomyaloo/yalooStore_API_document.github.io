@@ -1,0 +1,36 @@
+|===
+|Path|Type|Description
+
+|`+name+`
+|`+String+`
+|회원의 이름
+
+|`+id+`
+|`+String+`
+|회원 로그인 아이디
+
+|`+nickname+`
+|`+String+`
+|회원의 닉네임
+
+|`+emailAddress+`
+|`+String+`
+|회원의 이메일
+
+|`+phoneNumber+`
+|`+String+`
+|회원의 휴대전화 번호
+
+|`+password+`
+|`+String+`
+|회원 로그인에 사용할 비밀번호
+
+|`+birthday+`
+|`+String+`
+|회원의 생년월일
+
+|`+gender+`
+|`+String+`
+|회원의 성별
+
+|===

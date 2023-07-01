@@ -1,0 +1,40 @@
+|===
+|Path|Type|Description
+
+|`+success+`
+|`+Boolean+`
+|동작 성공 여부
+
+|`+data.memberId+`
+|`+Number+`
+|회원의 pk
+
+|`+data.name+`
+|`+String+`
+|회원의 이름
+
+|`+data.nickname+`
+|`+String+`
+|회원의 닉네임
+
+|`+data.id+`
+|`+String+`
+|회원 로그인 아이디
+
+|`+data.grade+`
+|`+String+`
+|회원의 등급
+
+|`+data.role+`
+|`+String+`
+|회원의 권한
+
+|`+status+`
+|`+Number+`
+|HTTP 상태 코드
+
+|`+errorMessages+`
+|`+Array+`
+|에러 메시지
+
+|===

@@ -1,0 +1,18 @@
+[source,http,options="nowrap"]
+----
+POST /api/service/members/sign-up?_csrf=DpLTo14IFVAcrVW1esUHfmNL59cfsXzC6VrFI6zM7YahnLPZPPPqx2lqd2UxyDSDTOgzHAV8yrUrgx_v2Tv2F5T53eKU_dLv HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Content-Length: 213
+Host: localhost
+
+{
+  "id" : "yaloo",
+  "nickname" : "yaloo",
+  "name" : "yaloo",
+  "gender" : "FEMALE",
+  "birthday" : "19960320",
+  "phoneNumber" : "01000009999",
+  "emailAddress" : "test@test.com",
+  "password" : "asdad122ed@"
+}
+----
