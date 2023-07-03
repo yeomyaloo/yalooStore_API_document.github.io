@@ -441,26 +441,33 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>Members(<a href="../index.html">뒤로가기</a>)</h1>
+<h1>Members(<a href="index.html">뒤로가기</a>)</h1>
 <div class="details">
 <span id="author" class="author">notification-api-docs</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_회원가입_시_해당_필드_중복_확인_api">1. 회원가입 시 해당 필드 중복 확인 API</a>
+<li><a href="#_회원_가입_api">1. 회원 가입 API</a>
 <ul class="sectlevel2">
-<li><a href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_가입되지_않은_휴대전화_번호인_경우">1.1. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 가입되지 않은 휴대전화 번호인 경우</a></li>
-<li><a href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_이미_가입된_휴대전화_번호인_경우">1.2. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 이미 가입된 휴대전화 번호인 경우</a></li>
-<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_닉네임인_경우">1.3. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 닉네임인 경우</a></li>
-<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_닉네임인_경우">1.4. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 닉네임인 경우</a></li>
-<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_이메일일_경우">1.5. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 이메일일 경우</a></li>
-<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_이메일일_경우">1.6. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 이메일일 경우</a></li>
+<li><a href="#_회원_가입_성공">1.1. 회원 가입 성공</a></li>
 </ul>
 </li>
-<li><a href="#_배치_서버_회원_관련_api">2. 배치 서버 회원 관련 API</a>
+<li><a href="#_회원가입_시_해당_필드_중복_확인_api">2. 회원가입 시 해당 필드 중복 확인 API</a>
 <ul class="sectlevel2">
-<li><a href="#_n일_이후의_생일인_회원_검색회원_pk_아이디_값_배치_서버에서_사용">2.1. n일 이후의 생일인 회원 검색(회원 PK 아이디 값) - 배치 서버에서 사용</a></li>
+<li><a href="#_회원가입_시_회원_로그인_아이디_중복_여부_확인_가입되지_않은_아이디인_경우">2.1. 회원가입 시 회원 로그인 아이디 중복 여부 확인 - 가입되지 않은 아이디인 경우</a></li>
+<li><a href="#_회원가입_시_회원_로그인_아이디_중복_여부_확인_이미_가입된_아이디인_경우">2.2. 회원가입 시 회원 로그인 아이디 중복 여부 확인 - 이미 가입된 아이디인 경우</a></li>
+<li><a href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_가입되지_않은_휴대전화_번호인_경우">2.3. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 가입되지 않은 휴대전화 번호인 경우</a></li>
+<li><a href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_이미_가입된_휴대전화_번호인_경우">2.4. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 이미 가입된 휴대전화 번호인 경우</a></li>
+<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_닉네임인_경우">2.5. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 닉네임인 경우</a></li>
+<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_닉네임인_경우">2.6. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 닉네임인 경우</a></li>
+<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_이메일일_경우">2.7. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 이메일일 경우</a></li>
+<li><a href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_이메일일_경우">2.8. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 이메일일 경우</a></li>
+</ul>
+</li>
+<li><a href="#_배치_서버_회원_관련_api">3. 배치 서버 회원 관련 API</a>
+<ul class="sectlevel2">
+<li><a href="#_n일_이후의_생일인_회원_검색회원_pk_아이디_값_배치_서버에서_사용">3.1. n일 이후의 생일인 회원 검색(회원 PK 아이디 값) - 배치 서버에서 사용</a></li>
 </ul>
 </li>
 </ul>
@@ -468,16 +475,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_회원가입_시_해당_필드_중복_확인_api"><a class="link" href="#_회원가입_시_해당_필드_중복_확인_api">1. 회원가입 시 해당 필드 중복 확인 API</a></h2>
+<h2 id="_회원_가입_api"><a class="link" href="#_회원_가입_api">1. 회원 가입 API</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_회원가입_시_회원_휴대전화번호_중복여부_확인_가입되지_않은_휴대전화_번호인_경우"><a class="link" href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_가입되지_않은_휴대전화_번호인_경우">1.1. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 가입되지 않은 휴대전화 번호인 경우</a></h3>
+<h3 id="_회원_가입_성공"><a class="link" href="#_회원_가입_성공">1.1. 회원 가입 성공</a></h3>
 <div class="sect3">
 <h4 id="_curl"><a class="link" href="#_curl">1.1.1. curl</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkPhone/01066669999' -i -X GET \
-    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/sign-up?_csrf=DpLTo14IFVAcrVW1esUHfmNL59cfsXzC6VrFI6zM7YahnLPZPPPqx2lqd2UxyDSDTOgzHAV8yrUrgx_v2Tv2F5T53eKU_dLv' -i -X POST \
+    -H 'Content-Type: application/json;charset=UTF-8' \
+    -d '{
+  "id" : "yaloo",
+  "nickname" : "yaloo",
+  "name" : "yaloo",
+  "gender" : "FEMALE",
+  "birthday" : "19960320",
+  "phoneNumber" : "01000009999",
+  "emailAddress" : "test@test.com",
+  "password" : "asdad122ed@"
+}'</code></pre>
 </div>
 </div>
 </div>
@@ -487,9 +504,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h5 id="_example"><a class="link" href="#_example">Example</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkPhone/01066669999 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/service/members/sign-up?_csrf=DpLTo14IFVAcrVW1esUHfmNL59cfsXzC6VrFI6zM7YahnLPZPPPqx2lqd2UxyDSDTOgzHAV8yrUrgx_v2Tv2F5T53eKU_dLv HTTP/1.1
 Content-Type: application/json;charset=UTF-8
-Host: localhost</code></pre>
+Content-Length: 213
+Host: localhost
+
+{
+  "id" : "yaloo",
+  "nickname" : "yaloo",
+  "name" : "yaloo",
+  "gender" : "FEMALE",
+  "birthday" : "19960320",
+  "phoneNumber" : "01000009999",
+  "emailAddress" : "test@test.com",
+  "password" : "asdad122ed@"
+}</code></pre>
 </div>
 </div>
 </div>
@@ -500,7 +529,7 @@ Host: localhost</code></pre>
 <h5 id="_example_2"><a class="link" href="#_example_2">Example</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 201 Created
 Content-Type: application/json
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -508,13 +537,18 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Content-Length: 105
+Content-Length: 224
 
 {
   "success" : true,
-  "status" : 200,
+  "status" : 201,
   "data" : {
-    "result" : false
+    "memberId" : 1,
+    "name" : "yaloo",
+    "nickname" : "yaloo",
+    "id" : "yaloo",
+    "grade" : "화이트",
+    "role" : "ROLE_USER"
   },
   "errorMessages" : null
 }</code></pre>
@@ -544,14 +578,39 @@ Content-Length: 105
 <td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.memberId</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원의 pk</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.name</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원의 이름</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.nickname</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원의 닉네임</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.id</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원 로그인 아이디</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.grade</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원의 등급</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.role</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>String</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원의 권한</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">회원 휴대 전화번호 중복 여부</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
@@ -566,9 +625,14 @@ Content-Length: 105
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
   "success" : true,
-  "status" : 200,
+  "status" : 201,
   "data" : {
-    "result" : false
+    "memberId" : 1,
+    "name" : "yaloo",
+    "nickname" : "yaloo",
+    "id" : "yaloo",
+    "grade" : "화이트",
+    "role" : "ROLE_USER"
   },
   "errorMessages" : null
 }</code></pre>
@@ -577,24 +641,29 @@ Content-Length: 105
 </div>
 </div>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_회원가입_시_해당_필드_중복_확인_api"><a class="link" href="#_회원가입_시_해당_필드_중복_확인_api">2. 회원가입 시 해당 필드 중복 확인 API</a></h2>
+<div class="sectionbody">
 <div class="sect2">
-<h3 id="_회원가입_시_회원_휴대전화번호_중복여부_확인_이미_가입된_휴대전화_번호인_경우"><a class="link" href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_이미_가입된_휴대전화_번호인_경우">1.2. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 이미 가입된 휴대전화 번호인 경우</a></h3>
+<h3 id="_회원가입_시_회원_로그인_아이디_중복_여부_확인_가입되지_않은_아이디인_경우"><a class="link" href="#_회원가입_시_회원_로그인_아이디_중복_여부_확인_가입되지_않은_아이디인_경우">2.1. 회원가입 시 회원 로그인 아이디 중복 여부 확인 - 가입되지 않은 아이디인 경우</a></h3>
 <div class="sect3">
-<h4 id="_curl_2"><a class="link" href="#_curl_2">1.2.1. curl</a></h4>
+<h4 id="_curl_2"><a class="link" href="#_curl_2">2.1.1. curl</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkPhone/01066669999' -i -X GET \
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkLoginId/test' -i -X GET \
     -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_request_2"><a class="link" href="#_request_2">1.2.2. request</a></h4>
+<h4 id="_request_2"><a class="link" href="#_request_2">2.1.2. request</a></h4>
 <div class="sect4">
 <h5 id="_example_4"><a class="link" href="#_example_4">Example</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkPhone/01066669999 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkLoginId/test HTTP/1.1
 Content-Type: application/json;charset=UTF-8
 Host: localhost</code></pre>
 </div>
@@ -602,7 +671,7 @@ Host: localhost</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_response_2"><a class="link" href="#_response_2">1.2.3. response</a></h4>
+<h4 id="_response_2"><a class="link" href="#_response_2">2.1.3. response</a></h4>
 <div class="sect4">
 <h5 id="_example_5"><a class="link" href="#_example_5">Example</a></h5>
 <div class="listingblock">
@@ -630,7 +699,221 @@ Content-Length: 104
 </div>
 </div>
 <div class="sect3">
-<h4 id="_body_2"><a class="link" href="#_body_2">1.2.4. Body</a></h4>
+<h4 id="_body_2"><a class="link" href="#_body_2">2.1.4. Body</a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Path</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>success</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원 이메일주소 중복 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">에러 메시지</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="_example_6"><a class="link" href="#_example_6">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : true
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_회원가입_시_회원_로그인_아이디_중복_여부_확인_이미_가입된_아이디인_경우"><a class="link" href="#_회원가입_시_회원_로그인_아이디_중복_여부_확인_이미_가입된_아이디인_경우">2.2. 회원가입 시 회원 로그인 아이디 중복 여부 확인 - 이미 가입된 아이디인 경우</a></h3>
+<div class="sect3">
+<h4 id="_curl_3"><a class="link" href="#_curl_3">2.2.1. curl</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkLoginId/test' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_request_3"><a class="link" href="#_request_3">2.2.2. request</a></h4>
+<div class="sect4">
+<h5 id="_example_7"><a class="link" href="#_example_7">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkLoginId/test HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_response_3"><a class="link" href="#_response_3">2.2.3. response</a></h4>
+<div class="sect4">
+<h5 id="_example_8"><a class="link" href="#_example_8">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 105
+
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : false
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_body_3"><a class="link" href="#_body_3">2.2.4. Body</a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Path</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>success</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원 이메일주소 중복 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">에러 메시지</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="_example_9"><a class="link" href="#_example_9">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : false
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_회원가입_시_회원_휴대전화번호_중복여부_확인_가입되지_않은_휴대전화_번호인_경우"><a class="link" href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_가입되지_않은_휴대전화_번호인_경우">2.3. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 가입되지 않은 휴대전화 번호인 경우</a></h3>
+<div class="sect3">
+<h4 id="_curl_4"><a class="link" href="#_curl_4">2.3.1. curl</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkPhone/01066669999' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_request_4"><a class="link" href="#_request_4">2.3.2. request</a></h4>
+<div class="sect4">
+<h5 id="_example_10"><a class="link" href="#_example_10">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkPhone/01066669999 HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_response_4"><a class="link" href="#_response_4">2.3.3. response</a></h4>
+<div class="sect4">
+<h5 id="_example_11"><a class="link" href="#_example_11">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 105
+
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : false
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_body_4"><a class="link" href="#_body_4">2.3.4. Body</a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -668,220 +951,6 @@ Content-Length: 104
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_example_6"><a class="link" href="#_example_6">Example</a></h5>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
-  "success" : true,
-  "status" : 200,
-  "data" : {
-    "result" : true
-  },
-  "errorMessages" : null
-}</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_닉네임인_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_닉네임인_경우">1.3. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 닉네임인 경우</a></h3>
-<div class="sect3">
-<h4 id="_curl_3"><a class="link" href="#_curl_3">1.3.1. curl</a></h4>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkNickname/test' -i -X GET \
-    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_request_3"><a class="link" href="#_request_3">1.3.2. request</a></h4>
-<div class="sect4">
-<h5 id="_example_7"><a class="link" href="#_example_7">Example</a></h5>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkNickname/test HTTP/1.1
-Content-Type: application/json;charset=UTF-8
-Host: localhost</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_response_3"><a class="link" href="#_response_3">1.3.3. response</a></h4>
-<div class="sect4">
-<h5 id="_example_8"><a class="link" href="#_example_8">Example</a></h5>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
-Content-Type: application/json
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Length: 105
-
-{
-  "success" : true,
-  "status" : 200,
-  "data" : {
-    "result" : false
-  },
-  "errorMessages" : null
-}</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_body_3"><a class="link" href="#_body_3">1.3.4. Body</a></h4>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Path</th>
-<th class="tableblock halign-left valign-top">Type</th>
-<th class="tableblock halign-left valign-top">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>success</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">회원 닉네임 중복 여부</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">에러 메시지</p></td>
-</tr>
-</tbody>
-</table>
-<div class="sect4">
-<h5 id="_example_9"><a class="link" href="#_example_9">Example</a></h5>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
-  "success" : true,
-  "status" : 200,
-  "data" : {
-    "result" : false
-  },
-  "errorMessages" : null
-}</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_닉네임인_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_닉네임인_경우">1.4. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 닉네임인 경우</a></h3>
-<div class="sect3">
-<h4 id="_curl_4"><a class="link" href="#_curl_4">1.4.1. curl</a></h4>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkNickname/test' -i -X GET \
-    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_request_4"><a class="link" href="#_request_4">1.4.2. request</a></h4>
-<div class="sect4">
-<h5 id="_example_10"><a class="link" href="#_example_10">Example</a></h5>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkNickname/test HTTP/1.1
-Content-Type: application/json;charset=UTF-8
-Host: localhost</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_response_4"><a class="link" href="#_response_4">1.4.3. response</a></h4>
-<div class="sect4">
-<h5 id="_example_11"><a class="link" href="#_example_11">Example</a></h5>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
-Content-Type: application/json
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Length: 104
-
-{
-  "success" : true,
-  "status" : 200,
-  "data" : {
-    "result" : true
-  },
-  "errorMessages" : null
-}</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_body_4"><a class="link" href="#_body_4">1.4.4. Body</a></h4>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Path</th>
-<th class="tableblock halign-left valign-top">Type</th>
-<th class="tableblock halign-left valign-top">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>success</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">회원 닉네임 중복 여부</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">에러 메시지</p></td>
-</tr>
-</tbody>
-</table>
-<div class="sect4">
 <h5 id="_example_12"><a class="link" href="#_example_12">Example</a></h5>
 <div class="listingblock">
 <div class="content">
@@ -889,7 +958,7 @@ Content-Length: 104
   "success" : true,
   "status" : 200,
   "data" : {
-    "result" : true
+    "result" : false
   },
   "errorMessages" : null
 }</code></pre>
@@ -899,23 +968,23 @@ Content-Length: 104
 </div>
 </div>
 <div class="sect2">
-<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_이메일일_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_이메일일_경우">1.5. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 이메일일 경우</a></h3>
+<h3 id="_회원가입_시_회원_휴대전화번호_중복여부_확인_이미_가입된_휴대전화_번호인_경우"><a class="link" href="#_회원가입_시_회원_휴대전화번호_중복여부_확인_이미_가입된_휴대전화_번호인_경우">2.4. 회원가입 시 회원 휴대전화번호 중복여부 확인 - 이미 가입된 휴대전화 번호인 경우</a></h3>
 <div class="sect3">
-<h4 id="_curl_5"><a class="link" href="#_curl_5">1.5.1. curl</a></h4>
+<h4 id="_curl_5"><a class="link" href="#_curl_5">2.4.1. curl</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkEmail/test@test.com' -i -X GET \
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkPhone/01066669999' -i -X GET \
     -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_request_5"><a class="link" href="#_request_5">1.5.2. request</a></h4>
+<h4 id="_request_5"><a class="link" href="#_request_5">2.4.2. request</a></h4>
 <div class="sect4">
 <h5 id="_example_13"><a class="link" href="#_example_13">Example</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkEmail/test@test.com HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkPhone/01066669999 HTTP/1.1
 Content-Type: application/json;charset=UTF-8
 Host: localhost</code></pre>
 </div>
@@ -923,13 +992,12 @@ Host: localhost</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_response_5"><a class="link" href="#_response_5">1.5.3. response</a></h4>
+<h4 id="_response_5"><a class="link" href="#_response_5">2.4.3. response</a></h4>
 <div class="sect4">
 <h5 id="_example_14"><a class="link" href="#_example_14">Example</a></h5>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
-Content-Disposition: inline;filename=f.txt
 Content-Type: application/json
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -952,7 +1020,7 @@ Content-Length: 104
 </div>
 </div>
 <div class="sect3">
-<h4 id="_body_5"><a class="link" href="#_body_5">1.5.4. Body</a></h4>
+<h4 id="_body_5"><a class="link" href="#_body_5">2.4.4. Body</a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -980,7 +1048,7 @@ Content-Length: 104
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">회원 이메일주소 중복 여부</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원 휴대 전화번호 중복 여부</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
@@ -1007,23 +1075,23 @@ Content-Length: 104
 </div>
 </div>
 <div class="sect2">
-<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_이메일일_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_이메일일_경우">1.6. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 이메일일 경우</a></h3>
+<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_닉네임인_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_닉네임인_경우">2.5. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 닉네임인 경우</a></h3>
 <div class="sect3">
-<h4 id="_curl_6"><a class="link" href="#_curl_6">1.6.1. curl</a></h4>
+<h4 id="_curl_6"><a class="link" href="#_curl_6">2.5.1. curl</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkEmail/test@test.com' -i -X GET \
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkNickname/test' -i -X GET \
     -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_request_6"><a class="link" href="#_request_6">1.6.2. request</a></h4>
+<h4 id="_request_6"><a class="link" href="#_request_6">2.5.2. request</a></h4>
 <div class="sect4">
 <h5 id="_example_16"><a class="link" href="#_example_16">Example</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkEmail/test@test.com HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkNickname/test HTTP/1.1
 Content-Type: application/json;charset=UTF-8
 Host: localhost</code></pre>
 </div>
@@ -1031,13 +1099,12 @@ Host: localhost</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_response_6"><a class="link" href="#_response_6">1.6.3. response</a></h4>
+<h4 id="_response_6"><a class="link" href="#_response_6">2.5.3. response</a></h4>
 <div class="sect4">
 <h5 id="_example_17"><a class="link" href="#_example_17">Example</a></h5>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
-Content-Disposition: inline;filename=f.txt
 Content-Type: application/json
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -1060,7 +1127,222 @@ Content-Length: 105
 </div>
 </div>
 <div class="sect3">
-<h4 id="_body_6"><a class="link" href="#_body_6">1.6.4. Body</a></h4>
+<h4 id="_body_6"><a class="link" href="#_body_6">2.5.4. Body</a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Path</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>success</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원 닉네임 중복 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">에러 메시지</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="_example_18"><a class="link" href="#_example_18">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : false
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_닉네임인_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_닉네임인_경우">2.6. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 닉네임인 경우</a></h3>
+<div class="sect3">
+<h4 id="_curl_7"><a class="link" href="#_curl_7">2.6.1. curl</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkNickname/test' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_request_7"><a class="link" href="#_request_7">2.6.2. request</a></h4>
+<div class="sect4">
+<h5 id="_example_19"><a class="link" href="#_example_19">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkNickname/test HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_response_7"><a class="link" href="#_response_7">2.6.3. response</a></h4>
+<div class="sect4">
+<h5 id="_example_20"><a class="link" href="#_example_20">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 104
+
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : true
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_body_7"><a class="link" href="#_body_7">2.6.4. Body</a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Path</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>success</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원 닉네임 중복 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">에러 메시지</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="_example_21"><a class="link" href="#_example_21">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : true
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_이메일일_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_이미_가입된_회원_이메일일_경우">2.7. 회원가입 시 회원 닉네임 중복여부 확인 - 이미 가입된 회원 이메일일 경우</a></h3>
+<div class="sect3">
+<h4 id="_curl_8"><a class="link" href="#_curl_8">2.7.1. curl</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkEmail/test@test.com' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_request_8"><a class="link" href="#_request_8">2.7.2. request</a></h4>
+<div class="sect4">
+<h5 id="_example_22"><a class="link" href="#_example_22">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkEmail/test@test.com HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_response_8"><a class="link" href="#_response_8">2.7.3. response</a></h4>
+<div class="sect4">
+<h5 id="_example_23"><a class="link" href="#_example_23">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
+Content-Disposition: inline;filename=f.txt
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 104
+
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : true
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_body_8"><a class="link" href="#_body_8">2.7.4. Body</a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -1098,7 +1380,115 @@ Content-Length: 105
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_example_18"><a class="link" href="#_example_18">Example</a></h5>
+<h5 id="_example_24"><a class="link" href="#_example_24">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : true
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_이메일일_경우"><a class="link" href="#_회원가입_시_회원_닉네임_중복여부_확인_가입되지_않은_회원_이메일일_경우">2.8. 회원가입 시 회원 닉네임 중복여부 확인 - 가입되지 않은 회원 이메일일 경우</a></h3>
+<div class="sect3">
+<h4 id="_curl_9"><a class="link" href="#_curl_9">2.8.1. curl</a></h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/checkEmail/test@test.com' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_request_9"><a class="link" href="#_request_9">2.8.2. request</a></h4>
+<div class="sect4">
+<h5 id="_example_25"><a class="link" href="#_example_25">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/checkEmail/test@test.com HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_response_9"><a class="link" href="#_response_9">2.8.3. response</a></h4>
+<div class="sect4">
+<h5 id="_example_26"><a class="link" href="#_example_26">Example</a></h5>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
+Content-Disposition: inline;filename=f.txt
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 105
+
+{
+  "success" : true,
+  "status" : 200,
+  "data" : {
+    "result" : false
+  },
+  "errorMessages" : null
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_body_9"><a class="link" href="#_body_9">2.8.4. Body</a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Path</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>success</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">동작 성공 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>status</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Number</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP 상태 코드</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.result</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">회원 이메일주소 중복 여부</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Array</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">에러 메시지</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="_example_27"><a class="link" href="#_example_27">Example</a></h5>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
@@ -1117,12 +1507,12 @@ Content-Length: 105
 </div>
 </div>
 <div class="sect1">
-<h2 id="_배치_서버_회원_관련_api"><a class="link" href="#_배치_서버_회원_관련_api">2. 배치 서버 회원 관련 API</a></h2>
+<h2 id="_배치_서버_회원_관련_api"><a class="link" href="#_배치_서버_회원_관련_api">3. 배치 서버 회원 관련 API</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_n일_이후의_생일인_회원_검색회원_pk_아이디_값_배치_서버에서_사용"><a class="link" href="#_n일_이후의_생일인_회원_검색회원_pk_아이디_값_배치_서버에서_사용">2.1. n일 이후의 생일인 회원 검색(회원 PK 아이디 값) - 배치 서버에서 사용</a></h3>
+<h3 id="_n일_이후의_생일인_회원_검색회원_pk_아이디_값_배치_서버에서_사용"><a class="link" href="#_n일_이후의_생일인_회원_검색회원_pk_아이디_값_배치_서버에서_사용">3.1. n일 이후의 생일인 회원 검색(회원 PK 아이디 값) - 배치 서버에서 사용</a></h3>
 <div class="sect3">
-<h4 id="_curl_7"><a class="link" href="#_curl_7">2.1.1. curl</a></h4>
+<h4 id="_curl_10"><a class="link" href="#_curl_10">3.1.1. curl</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/birthday?laterDays=7' -i -X GET \
@@ -1131,9 +1521,9 @@ Content-Length: 105
 </div>
 </div>
 <div class="sect3">
-<h4 id="_request_7"><a class="link" href="#_request_7">2.1.2. request</a></h4>
+<h4 id="_request_10"><a class="link" href="#_request_10">3.1.2. request</a></h4>
 <div class="sect4">
-<h5 id="_example_19"><a class="link" href="#_example_19">Example</a></h5>
+<h5 id="_example_28"><a class="link" href="#_example_28">Example</a></h5>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/birthday?laterDays=7 HTTP/1.1
@@ -1144,9 +1534,9 @@ Host: localhost</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_response_7"><a class="link" href="#_response_7">2.1.3. response</a></h4>
+<h4 id="_response_10"><a class="link" href="#_response_10">3.1.3. response</a></h4>
 <div class="sect4">
-<h5 id="_example_20"><a class="link" href="#_example_20">Example</a></h5>
+<h5 id="_example_29"><a class="link" href="#_example_29">Example</a></h5>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -1172,7 +1562,7 @@ Content-Length: 107
 </div>
 </div>
 <div class="sect3">
-<h4 id="_body_7"><a class="link" href="#_body_7">2.1.4. Body</a></h4>
+<h4 id="_body_10"><a class="link" href="#_body_10">3.1.4. Body</a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -1195,7 +1585,7 @@ Content-Length: 107
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_example_21"><a class="link" href="#_example_21">Example</a></h5>
+<h5 id="_example_30"><a class="link" href="#_example_30">Example</a></h5>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-json hljs" data-lang="json">{
@@ -1216,7 +1606,7 @@ Content-Length: 107
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-06-28 18:37:33 +0900
+Last updated 2023-07-01 19:25:44 +0900
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
