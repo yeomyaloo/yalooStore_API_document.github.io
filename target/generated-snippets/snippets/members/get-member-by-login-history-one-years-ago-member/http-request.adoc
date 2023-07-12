@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /api/service/members/loginHistory/2023-07-13?_csrf=TG1CwImnpjhugmLXhwxhtmRj63JXey8NLXwpsnNUf9tGS6hUe1xw-bqRlF5D4ATgvyFVgFBUxktiHRwgS0hL1kFsS-J2eM4y HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Host: localhost
+
+----

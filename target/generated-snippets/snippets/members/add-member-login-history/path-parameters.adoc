@@ -1,0 +1,8 @@
+.+/api/service/members/add/loginHistory/{loginId}+
+|===
+|Parameter|Description
+
+|`+loginId+`
+|회원 로그인 아이디
+
+|===

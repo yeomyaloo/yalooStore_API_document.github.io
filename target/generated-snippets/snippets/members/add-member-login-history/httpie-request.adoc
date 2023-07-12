@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http POST 'https://localhost/api/service/members/add/loginHistory/test' \
+    'Content-Type:application/json;charset=UTF-8'
+----

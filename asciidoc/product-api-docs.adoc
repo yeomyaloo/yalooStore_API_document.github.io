@@ -26,41 +26,41 @@ notification-api-docs
 
 === 상품 상세 조회 - 모든 사용자용
 ==== curl
-include::../target/generated-snippets/snippets/find-detail-product/curl-request.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/curl-request.adoc[]
 
 ==== request
 ===== Example
-include::../target/generated-snippets/snippets/find-detail-product/http-request.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/http-request.adoc[]
 
 
 ==== response
 ===== Example
-include::../target/generated-snippets/snippets/find-detail-product/http-response.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/http-response.adoc[]
 
 ==== Body
-include::../target/generated-snippets/snippets/find-detail-product/response-fields.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/response-fields.adoc[]
 
 
 ===== Example
-include::../target/generated-snippets/snippets/find-detail-product/response-body.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/response-body.adoc[]
 
 === 상품명으로 특정 상품 검색 - 모든 사용자용
 
 ==== curl
-include::../target/generated-snippets/snippets/find-detail-product/curl-request.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/curl-request.adoc[]
 
 ==== request
 ===== Example
-include::../target/generated-snippets/snippets/find-detail-product/http-request.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/http-request.adoc[]
 
 
 ==== response
 ===== Example
-include::../target/generated-snippets/snippets/find-detail-product/http-response.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/http-response.adoc[]
 
 ==== Body
-include::../target/generated-snippets/snippets/find-detail-product/response-fields.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/response-fields.adoc[]
 
 
 ===== Example
-include::../target/generated-snippets/snippets/find-detail-product/response-body.adoc[]
+include::../target/generated-snippets/snippets/products/find-detail-product/response-body.adoc[]

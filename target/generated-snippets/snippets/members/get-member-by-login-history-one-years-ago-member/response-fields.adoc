@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`+success+`
+|`+Boolean+`
+|동작 성공 여부
+
+|`+data.[].memberId+`
+|`+Number+`
+|지난 1년간 로그인한 기록이 없는 회원의 pk
+
+|`+status+`
+|`+Number+`
+|HTTP 상태 코드
+
+|`+errorMessages+`
+|`+Array+`
+|에러 메시지
+
+|===

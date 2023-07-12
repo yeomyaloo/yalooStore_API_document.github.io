@@ -1,0 +1,32 @@
+|===
+|Path|Type|Description
+
+|`+success+`
+|`+Boolean+`
+|동작 성공 여부
+
+|`+data.historyId+`
+|`+Number+`
+|회원 로그인 기록 pk
+
+|`+data.memberId+`
+|`+Number+`
+|회원 pk
+
+|`+data.loginId+`
+|`+String+`
+|회원의 로그인 아이디
+
+|`+data.loginTime+`
+|`+String+`
+|회원의 로그인 시간
+
+|`+status+`
+|`+Number+`
+|HTTP 상태 코드
+
+|`+errorMessages+`
+|`+Array+`
+|에러 메시지
+
+|===
