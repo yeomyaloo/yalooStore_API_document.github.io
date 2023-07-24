@@ -1,0 +1,8 @@
+[source,json,options="nowrap"]
+----
+[ {
+  "memberId" : 1
+}, {
+  "memberId" : 2
+} ]
+----

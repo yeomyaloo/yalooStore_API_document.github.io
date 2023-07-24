@@ -1,0 +1,17 @@
+[source,json,options="nowrap"]
+----
+{
+  "success" : true,
+  "status" : 200,
+  "data" : [ {
+    "memberId" : 1,
+    "emailAddress" : "hi@naver.com",
+    "inactiveMember" : true
+  }, {
+    "memberId" : 2,
+    "emailAddress" : "test@test.com",
+    "inactiveMember" : true
+  } ],
+  "errorMessages" : null
+}
+----

@@ -1,0 +1,28 @@
+|===
+|Path|Type|Description
+
+|`+success+`
+|`+Boolean+`
+|동작 성공 여부
+
+|`+status+`
+|`+Number+`
+|HTTP 상태 코드
+
+|`+data.[].memberId+`
+|`+Number+`
+|휴먼 회원 Pk
+
+|`+data.[].emailAddress+`
+|`+String+`
+|휴먼 회원 Pk
+
+|`+data.[].inactiveMember+`
+|`+Boolean+`
+|휴먼 회원 Pk
+
+|`+errorMessages+`
+|`+Array+`
+|에러 메시지
+
+|===

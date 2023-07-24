@@ -1,0 +1,13 @@
+[source,http,options="nowrap"]
+----
+PUT /api/service/members/modify/inactive?_csrf=-ih0ebJCxUbxAwxhnZdZx-frkiwhqwOsF19EKdGRXhnssgdKmUwRSoEk_HXcYDpVrbpt_9_Zv05Fn2CBJjt9HrD0b3uIizMr HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Content-Length: 46
+Host: localhost
+
+[ {
+  "memberId" : 1
+}, {
+  "memberId" : 2
+} ]
+----

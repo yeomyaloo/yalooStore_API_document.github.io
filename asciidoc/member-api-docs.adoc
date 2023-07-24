@@ -252,3 +252,23 @@ include::../target/generated-snippets/snippets/members/get-member-by-login-histo
 
 ===== Example
 include::../target/generated-snippets/snippets/members/get-member-by-login-history-one-years-ago-member/response-body.adoc[]
+
+
+=== 오늘을 기준으로 1년간 로그인 하지 않은 회원들을 휴먼 회원화 시키는 API
+
+==== curl
+include::../target/generated-snippets/snippets/members/modify-member-inactive/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/members/modify-member-inactive/http-request.adoc[]
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/members/modify-member-inactive/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/members/modify-member-inactive/response-fields.adoc[]
+
+===== Example
+include::../target/generated-snippets/snippets/members/modify-member-inactive/response-body.adoc[]

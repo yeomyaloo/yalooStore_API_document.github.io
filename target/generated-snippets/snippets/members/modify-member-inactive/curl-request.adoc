@@ -1,0 +1,10 @@
+[source,bash]
+----
+$ curl 'https://localhost/api/service/members/modify/inactive?_csrf=-ih0ebJCxUbxAwxhnZdZx-frkiwhqwOsF19EKdGRXhnssgdKmUwRSoEk_HXcYDpVrbpt_9_Zv05Fn2CBJjt9HrD0b3uIizMr' -i -X PUT \
+    -H 'Content-Type: application/json;charset=UTF-8' \
+    -d '[ {
+  "memberId" : 1
+}, {
+  "memberId" : 2
+} ]'
+----

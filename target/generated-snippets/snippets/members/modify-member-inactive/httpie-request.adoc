@@ -1,0 +1,9 @@
+[source,bash]
+----
+$ echo '[ {
+  "memberId" : 1
+}, {
+  "memberId" : 2
+} ]' | http PUT 'https://localhost/api/service/members/modify/inactive?_csrf=-ih0ebJCxUbxAwxhnZdZx-frkiwhqwOsF19EKdGRXhnssgdKmUwRSoEk_HXcYDpVrbpt_9_Zv05Fn2CBJjt9HrD0b3uIizMr' \
+    'Content-Type:application/json;charset=UTF-8'
+----

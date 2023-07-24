@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`+[]+`
+|`+Array+`
+|휴먼 회원으로 변경될 회원들의 Pk 목록
+
+|`+[].memberId+`
+|`+Number+`
+|회원 Pk
+
+|===
