@@ -15,11 +15,11 @@
 
 |`+data.[].emailAddress+`
 |`+String+`
-|휴먼 회원 Pk
+|휴먼 회원 이메일 주소
 
 |`+data.[].inactiveMember+`
 |`+Boolean+`
-|휴먼 회원 Pk
+|휴먼 회원 여부
 
 |`+errorMessages+`
 |`+Array+`

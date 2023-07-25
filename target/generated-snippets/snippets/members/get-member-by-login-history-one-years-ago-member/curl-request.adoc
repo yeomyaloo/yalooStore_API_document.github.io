@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ curl 'https://localhost/api/service/members/loginHistory/2023-07-13?_csrf=TG1CwImnpjhugmLXhwxhtmRj63JXey8NLXwpsnNUf9tGS6hUe1xw-bqRlF5D4ATgvyFVgFBUxktiHRwgS0hL1kFsS-J2eM4y' -i -X GET \
+$ curl 'https://localhost/api/service/members/loginHistory?today=2023-07-25&_csrf=D9H3UuFshvYgYaeY3lMBigsxcNARmgyDhBTDvN0IaBqYrDCWbuGVN9JZ4JUNWZb65n416D8DXbFw_jiusXb1iuQ5DXj6mgf0' -i -X GET \
     -H 'Content-Type: application/json;charset=UTF-8'
 ----

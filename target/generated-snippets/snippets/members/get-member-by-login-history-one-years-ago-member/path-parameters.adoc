@@ -1,8 +1,0 @@
-.+/api/service/members/loginHistory/{today}+
-|===
-|Parameter|Description
-
-|`+today+`
-|오늘 날짜
-
-|===

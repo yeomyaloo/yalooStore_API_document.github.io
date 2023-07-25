@@ -1651,7 +1651,7 @@ Content-Length: 180
     "historyId" : 1,
     "memberId" : 1,
     "loginId" : "test",
-    "loginTime" : "2023-07-13"
+    "loginTime" : "2023-07-25"
   },
   "errorMessages" : null
 }</code></pre>
@@ -1723,7 +1723,7 @@ Content-Length: 180
     "historyId" : 1,
     "memberId" : 1,
     "loginId" : "test",
-    "loginTime" : "2023-07-13"
+    "loginTime" : "2023-07-25"
   },
   "errorMessages" : null
 }</code></pre>
@@ -1738,7 +1738,7 @@ Content-Length: 180
 <h4 id="_curl_12"><a class="link" href="#_curl_12">3.3.1. curl</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/loginHistory/2023-07-13?_csrf=TG1CwImnpjhugmLXhwxhtmRj63JXey8NLXwpsnNUf9tGS6hUe1xw-bqRlF5D4ATgvyFVgFBUxktiHRwgS0hL1kFsS-J2eM4y' -i -X GET \
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/loginHistory?today=2023-07-25&amp;_csrf=D9H3UuFshvYgYaeY3lMBigsxcNARmgyDhBTDvN0IaBqYrDCWbuGVN9JZ4JUNWZb65n416D8DXbFw_jiusXb1iuQ5DXj6mgf0' -i -X GET \
     -H 'Content-Type: application/json;charset=UTF-8'</code></pre>
 </div>
 </div>
@@ -1749,7 +1749,7 @@ Content-Length: 180
 <h5 id="_example_34"><a class="link" href="#_example_34">Example</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/loginHistory/2023-07-13?_csrf=TG1CwImnpjhugmLXhwxhtmRj63JXey8NLXwpsnNUf9tGS6hUe1xw-bqRlF5D4ATgvyFVgFBUxktiHRwgS0hL1kFsS-J2eM4y HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/service/members/loginHistory?today=2023-07-25&amp;_csrf=D9H3UuFshvYgYaeY3lMBigsxcNARmgyDhBTDvN0IaBqYrDCWbuGVN9JZ4JUNWZb65n416D8DXbFw_jiusXb1iuQ5DXj6mgf0 HTTP/1.1
 Content-Type: application/json;charset=UTF-8
 Host: localhost</code></pre>
 </div>
@@ -1845,7 +1845,7 @@ Content-Length: 107
 <h4 id="_curl_13"><a class="link" href="#_curl_13">3.4.1. curl</a></h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/modify/inactive?_csrf=-ih0ebJCxUbxAwxhnZdZx-frkiwhqwOsF19EKdGRXhnssgdKmUwRSoEk_HXcYDpVrbpt_9_Zv05Fn2CBJjt9HrD0b3uIizMr' -i -X PUT \
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ curl 'https://localhost/api/service/members/modify/inactive?_csrf=Z9SCbBpZZpn-WeiEinLOOtM9uXoMAkY9ocySrD8E6ieZ4oS6VOHnCXw8UvjTa9u8vl_6A7VZlEI_YyMQlfmrlV023ROugb2I' -i -X PUT \
     -H 'Content-Type: application/json;charset=UTF-8' \
     -d '[ {
   "memberId" : 1
@@ -1861,7 +1861,7 @@ Content-Length: 107
 <h5 id="_example_37"><a class="link" href="#_example_37">Example</a></h5>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">PUT /api/service/members/modify/inactive?_csrf=-ih0ebJCxUbxAwxhnZdZx-frkiwhqwOsF19EKdGRXhnssgdKmUwRSoEk_HXcYDpVrbpt_9_Zv05Fn2CBJjt9HrD0b3uIizMr HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">PUT /api/service/members/modify/inactive?_csrf=Z9SCbBpZZpn-WeiEinLOOtM9uXoMAkY9ocySrD8E6ieZ4oS6VOHnCXw8UvjTa9u8vl_6A7VZlEI_YyMQlfmrlV023ROugb2I HTTP/1.1
 Content-Type: application/json;charset=UTF-8
 Content-Length: 46
 Host: localhost
@@ -1943,12 +1943,12 @@ Content-Length: 266
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.[].emailAddress</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>String</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">휴먼 회원 Pk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">휴먼 회원 이메일 주소</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>data.[].inactiveMember</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>Boolean</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">휴먼 회원 Pk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">휴먼 회원 여부</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>errorMessages</code></p></td>

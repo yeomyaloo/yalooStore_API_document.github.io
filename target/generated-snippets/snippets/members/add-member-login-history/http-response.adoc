@@ -17,7 +17,7 @@ Content-Length: 180
     "historyId" : 1,
     "memberId" : 1,
     "loginId" : "test",
-    "loginTime" : "2023-07-13"
+    "loginTime" : "2023-07-25"
   },
   "errorMessages" : null
 }

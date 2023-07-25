@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://localhost/api/service/members/modify/inactive?_csrf=-ih0ebJCxUbxAwxhnZdZx-frkiwhqwOsF19EKdGRXhnssgdKmUwRSoEk_HXcYDpVrbpt_9_Zv05Fn2CBJjt9HrD0b3uIizMr' -i -X PUT \
+$ curl 'https://localhost/api/service/members/modify/inactive?_csrf=Z9SCbBpZZpn-WeiEinLOOtM9uXoMAkY9ocySrD8E6ieZ4oS6VOHnCXw8UvjTa9u8vl_6A7VZlEI_YyMQlfmrlV023ROugb2I' -i -X PUT \
     -H 'Content-Type: application/json;charset=UTF-8' \
     -d '[ {
   "memberId" : 1
