@@ -1,0 +1,46 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 658
+
+{
+  "success" : true,
+  "status" : 200,
+  "data" : [ {
+    "productId" : 1,
+    "productName" : "testtest",
+    "thumbnailUrl" : "dsdadas",
+    "stock" : 10,
+    "discountPrice" : 10,
+    "rawPrice" : 1000,
+    "isSold" : false,
+    "forcedOutOfStock" : false,
+    "isEbook" : false,
+    "publisherName" : "publisherName",
+    "authorName" : "test"
+  }, {
+    "productId" : 2,
+    "productName" : "dd",
+    "thumbnailUrl" : "d",
+    "stock" : 10,
+    "discountPrice" : 10,
+    "rawPrice" : 1000,
+    "isSold" : false,
+    "forcedOutOfStock" : false,
+    "isEbook" : false,
+    "publisherName" : "dd",
+    "authorName" : "dd"
+  } ],
+  "errorMessages" : null
+}
+----

@@ -1,0 +1,33 @@
+[source,json,options="nowrap"]
+----
+{
+  "success" : true,
+  "status" : 200,
+  "data" : [ {
+    "productId" : 1,
+    "productName" : "testtest",
+    "thumbnailUrl" : "dsdadas",
+    "stock" : 10,
+    "discountPrice" : 10,
+    "rawPrice" : 1000,
+    "isSold" : false,
+    "forcedOutOfStock" : false,
+    "isEbook" : false,
+    "publisherName" : "publisherName",
+    "authorName" : "test"
+  }, {
+    "productId" : 2,
+    "productName" : "dd",
+    "thumbnailUrl" : "d",
+    "stock" : 10,
+    "discountPrice" : 10,
+    "rawPrice" : 1000,
+    "isSold" : false,
+    "forcedOutOfStock" : false,
+    "isEbook" : false,
+    "publisherName" : "dd",
+    "authorName" : "dd"
+  } ],
+  "errorMessages" : null
+}
+----

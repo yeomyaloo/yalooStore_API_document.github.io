@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'https://localhost/api/service/products/new-arrivals?_csrf=wCIpZIeqZUcUg__5W5yb63e9erfnmRnTIGr1k-NT57Ec8Ja28RQQU-KaVHQ55s2aaLGv3kCPV4_U-H3-EVyRpdEx0tUvxfWO' -i -X GET \
+    -H 'Content-Type: application/json;charset=UTF-8'
+----

@@ -1,0 +1,60 @@
+|===
+|Path|Type|Description
+
+|`+success+`
+|`+Boolean+`
+|성공 여부
+
+|`+status+`
+|`+Number+`
+|상태
+
+|`+errorMessages+`
+|`+String+`
+|에러 메시지
+
+|`+data.[].productId+`
+|`+Number+`
+|상품의 id
+
+|`+data.[].productName+`
+|`+String+`
+|상품 제목
+
+|`+data.[].thumbnailUrl+`
+|`+String+`
+|상품 썸네일 파일
+
+|`+data.[].stock+`
+|`+Number+`
+|상품 재고량
+
+|`+data.[].discountPrice+`
+|`+Number+`
+|할인 판매가
+
+|`+data.[].rawPrice+`
+|`+Number+`
+|정가
+
+|`+data.[].isSold+`
+|`+Boolean+`
+|품절 여부
+
+|`+data.[].forcedOutOfStock+`
+|`+Boolean+`
+|강제 품절 여부
+
+|`+data.[].isEbook+`
+|`+Boolean+`
+|이북 상품 여부
+
+|`+data.[].authorName+`
+|`+String+`
+|저자명
+
+|`+data.[].publisherName+`
+|`+String+`
+|상품 출판사
+
+|===

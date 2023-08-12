@@ -8,8 +8,8 @@ notification-api-docs
 :sectlinks:
 :sectnums:
 
-
-=== 전체 상품 페이징 조회(모든 사용자용)
+== 상품 조회 - 모든 사용자용
+=== 전체 상품 페이징 조회
 ==== curl
 
 ==== request
@@ -24,7 +24,7 @@ notification-api-docs
 ===== Example
 
 
-=== 상품 상세 조회 - 모든 사용자용
+=== 상품 상세 조회
 ==== curl
 include::../target/generated-snippets/snippets/products/find-detail-product/curl-request.adoc[]
 
@@ -45,7 +45,6 @@ include::../target/generated-snippets/snippets/products/find-detail-product/resp
 include::../target/generated-snippets/snippets/products/find-detail-product/response-body.adoc[]
 
 === 상품명으로 특정 상품 검색 - 모든 사용자용
-
 ==== curl
 include::../target/generated-snippets/snippets/products/find-detail-product/curl-request.adoc[]
 
@@ -63,4 +62,26 @@ include::../target/generated-snippets/snippets/products/find-detail-product/resp
 
 
 ===== Example
-include::../target/generated-snippets/snippets/products/find-detail-product/response-body.adoc[]
+include::../target/generated-snippets/snippets/products/find-new-arrivals/response-body.adoc[]
+
+== 상품 관련 캐시 적용
+=== 신작 조회
+==== curl
+include::../target/generated-snippets/snippets/products/find-new-arrivals/curl-request.adoc[]
+
+==== request
+===== Example
+include::../target/generated-snippets/snippets/products/find-new-arrivals/http-request.adoc[]
+
+
+==== response
+===== Example
+include::../target/generated-snippets/snippets/products/find-new-arrivals/http-response.adoc[]
+
+==== Body
+include::../target/generated-snippets/snippets/products/find-new-arrivals/response-fields.adoc[]
+
+
+===== Example
+include::../target/generated-snippets/snippets/products/find-new-arrivals/response-body.adoc[]
+
